@@ -1,0 +1,214 @@
+/* Estilos gerais */
+
+body {
+    font-family: 'Arial', serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/background/Final_Background_Image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: rgb(182, 15, 49);
+    padding: 30px 0;
+    text-align: center;
+    margin: 3px auto;
+    line-height: 1.2em;
+    border-radius: 15px;
+}
+
+header h1 {
+    margin: 0;
+    line-height: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+li {
+    margin: 20px;
+    list-style-type: none;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section div {
+    background-color: rgb(182, 15, 49);
+    border: 1px solid #444;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+section h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    font-size: 1em;
+    transition: font-size 0.5s ease, text-decoration 0.5s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#irmaos, #foco, #grimoar, #codex, #requieldor {
+    border: #000000 solid;
+}
+
+#irmaos {
+    height: 450px;
+    width: 100%;
+    max-width: 700px;
+}
+
+#foco {
+    height: 480px;
+    width: 100%;
+    max-width: 850px;
+}
+
+#grimoar {
+    height: 550px;
+    width: 100%;
+    max-width: 700px;
+}
+
+#codex {
+    height: 600px;
+    width: 100%;
+    max-width: 700px;
+}
+
+#requieldor {
+    height: 450px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.img_sub {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Consultas de mídia para responsividade */
+
+@media (max-width: 1024px) {
+    header {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    form {
+        width: 90%;
+        margin: auto;
+    }
+
+    img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px 0;
+    }
+
+    form {
+        width: 95%;
+        margin: auto;
+    }
+
+    img {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px 0;
+    }
+
+    form {
+        width: 100%;
+        margin: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+}
